@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Kanagawa scheme by Tommaso Laurenzi (https://github.com/rebelot) */
+
+window {
+	background-color: #1f1f28;
+	color: #dcd7ba;
+}
+
+#entry:nth-child(odd) {
+	background-color: #1f1f28;
+}
+
+#entry:nth-child(even) {
+	background-color: #16161d;
+}
+
+#entry:selected {
+	background-color: #223249;
+}
+
+#input {
+	background-color: #16161d;
+	color: #727169;
+	border-color: #223249; 
+}
+
+#input:focus {
+	border-color: #c0a36e; 
+}

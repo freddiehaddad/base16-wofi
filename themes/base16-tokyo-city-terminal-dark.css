@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Tokyo City Terminal Dark scheme by Michaël Ball */
+
+window {
+	background-color: #171d23;
+	color: #d8e2ec;
+}
+
+#entry:nth-child(odd) {
+	background-color: #171d23;
+}
+
+#entry:nth-child(even) {
+	background-color: #1d252c;
+}
+
+#entry:selected {
+	background-color: #28323a;
+}
+
+#input {
+	background-color: #1d252c;
+	color: #b7c5d3;
+	border-color: #28323a; 
+}
+
+#input:focus {
+	border-color: #ebbf83; 
+}

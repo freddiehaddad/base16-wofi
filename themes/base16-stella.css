@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Stella scheme by Shrimpram */
+
+window {
+	background-color: #2b213c;
+	color: #998bad;
+}
+
+#entry:nth-child(odd) {
+	background-color: #2b213c;
+}
+
+#entry:nth-child(even) {
+	background-color: #362b48;
+}
+
+#entry:selected {
+	background-color: #4d4160;
+}
+
+#input {
+	background-color: #362b48;
+	color: #7f7192;
+	border-color: #4d4160; 
+}
+
+#input:focus {
+	border-color: #c7c691; 
+}

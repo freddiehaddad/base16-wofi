@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * selenized-light scheme by Jan Warchol (https://github.com/jan-warchol/selenized) / adapted to base16 by ali */
+
+window {
+	background-color: #fbf3db;
+	color: #53676d;
+}
+
+#entry:nth-child(odd) {
+	background-color: #fbf3db;
+}
+
+#entry:nth-child(even) {
+	background-color: #ece3cc;
+}
+
+#entry:selected {
+	background-color: #d5cdb6;
+}
+
+#input {
+	background-color: #ece3cc;
+	color: #909995;
+	border-color: #d5cdb6; 
+}
+
+#input:focus {
+	border-color: #a78300; 
+}

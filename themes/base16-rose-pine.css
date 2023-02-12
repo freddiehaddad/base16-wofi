@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Rosé Pine scheme by Emilia Dunfelt &lt;sayhi@dunfelt.se&gt; */
+
+window {
+	background-color: #191724;
+	color: #e0def4;
+}
+
+#entry:nth-child(odd) {
+	background-color: #191724;
+}
+
+#entry:nth-child(even) {
+	background-color: #1f1d2e;
+}
+
+#entry:selected {
+	background-color: #26233a;
+}
+
+#input {
+	background-color: #1f1d2e;
+	color: #6e6a86;
+	border-color: #26233a; 
+}
+
+#input:focus {
+	border-color: #f6c177; 
+}

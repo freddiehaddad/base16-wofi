@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Everforest scheme by Sainnhe Park (https://github.com/sainnhe) */
+
+window {
+	background-color: #2f383e;
+	color: #d3c6aa;
+}
+
+#entry:nth-child(odd) {
+	background-color: #2f383e;
+}
+
+#entry:nth-child(even) {
+	background-color: #374247;
+}
+
+#entry:selected {
+	background-color: #4a555b;
+}
+
+#input {
+	background-color: #374247;
+	color: #9da9a0;
+	border-color: #4a555b; 
+}
+
+#input:focus {
+	border-color: #dbbc7f; 
+}

@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Tokyo Night Light scheme by Michaël Ball */
+
+window {
+	background-color: #d5d6db;
+	color: #343b59;
+}
+
+#entry:nth-child(odd) {
+	background-color: #d5d6db;
+}
+
+#entry:nth-child(even) {
+	background-color: #cbccd1;
+}
+
+#entry:selected {
+	background-color: #dfe0e5;
+}
+
+#input {
+	background-color: #cbccd1;
+	color: #4c505e;
+	border-color: #dfe0e5; 
+}
+
+#input:focus {
+	border-color: #166775; 
+}

@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Still Alive scheme by Derrick McKee (derrick.mckee@gmail.com) */
+
+window {
+	background-color: #f0f0f0;
+	color: #d80000;
+}
+
+#entry:nth-child(odd) {
+	background-color: #f0f0f0;
+}
+
+#entry:nth-child(even) {
+	background-color: #f0d848;
+}
+
+#entry:selected {
+	background-color: #fff018;
+}
+
+#input {
+	background-color: #f0d848;
+	color: #f00000;
+	border-color: #fff018; 
+}
+
+#input:focus {
+	border-color: #426395; 
+}

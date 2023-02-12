@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Apprentice scheme by romainl */
+
+window {
+	background-color: #262626;
+	color: #bcbcbc;
+}
+
+#entry:nth-child(odd) {
+	background-color: #262626;
+}
+
+#entry:nth-child(even) {
+	background-color: #303030;
+}
+
+#entry:selected {
+	background-color: #333333;
+}
+
+#input {
+	background-color: #303030;
+	color: #787878;
+	border-color: #333333; 
+}
+
+#input:focus {
+	border-color: #5f8787; 
+}

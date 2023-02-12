@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Shades of Purple scheme by Iolar Demartini Junior (http://github.com/demartini) based on Shades of Purple Theme (https://github.com/ahmadawais/shades-of-purple-vscode). */
+
+window {
+	background-color: #1e1e3f;
+	color: #c7c7c7;
+}
+
+#entry:nth-child(odd) {
+	background-color: #1e1e3f;
+}
+
+#entry:nth-child(even) {
+	background-color: #43d426;
+}
+
+#entry:selected {
+	background-color: #f1d000;
+}
+
+#input {
+	background-color: #43d426;
+	color: #6871ff;
+	border-color: #f1d000; 
+}
+
+#input:focus {
+	border-color: #ffe700; 
+}

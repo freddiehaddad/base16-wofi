@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * pinky scheme by Benjamin (https://github.com/b3nj5m1n) */
+
+window {
+	background-color: #171517;
+	color: #f5f5f5;
+}
+
+#entry:nth-child(odd) {
+	background-color: #171517;
+}
+
+#entry:nth-child(even) {
+	background-color: #1b181b;
+}
+
+#entry:selected {
+	background-color: #1d1b1d;
+}
+
+#input {
+	background-color: #1b181b;
+	color: #e7dbdb;
+	border-color: #1d1b1d; 
+}
+
+#input:focus {
+	border-color: #20df6c; 
+}

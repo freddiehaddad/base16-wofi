@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * DanQing Light scheme by Wenhan Zhu (Cosmos) (zhuwenhan950913@gmail.com) */
+
+window {
+	background-color: #fcfefd;
+	color: #5a605d;
+}
+
+#entry:nth-child(odd) {
+	background-color: #fcfefd;
+}
+
+#entry:nth-child(even) {
+	background-color: #ecf6f2;
+}
+
+#entry:selected {
+	background-color: #e0f0ef;
+}
+
+#input {
+	background-color: #ecf6f2;
+	color: #9da8a3;
+	border-color: #e0f0ef; 
+}
+
+#input:focus {
+	border-color: #f0c239; 
+}

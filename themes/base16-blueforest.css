@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Blue Forest scheme by alonsodomin (https://github.com/alonsodomin) */
+
+window {
+	background-color: #141f2e;
+	color: #ffcc33;
+}
+
+#entry:nth-child(odd) {
+	background-color: #141f2e;
+}
+
+#entry:nth-child(even) {
+	background-color: #1e5c1e;
+}
+
+#entry:selected {
+	background-color: #273e5c;
+}
+
+#input {
+	background-color: #1e5c1e;
+	color: #1e5c1e;
+	border-color: #273e5c; 
+}
+
+#input:focus {
+	border-color: #91ccff; 
+}

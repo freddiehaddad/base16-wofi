@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Colors scheme by mrmrs (http://clrs.cc) */
+
+window {
+	background-color: #111111;
+	color: #bbbbbb;
+}
+
+#entry:nth-child(odd) {
+	background-color: #111111;
+}
+
+#entry:nth-child(even) {
+	background-color: #333333;
+}
+
+#entry:selected {
+	background-color: #555555;
+}
+
+#input {
+	background-color: #333333;
+	color: #999999;
+	border-color: #555555; 
+}
+
+#input:focus {
+	border-color: #ffdc00; 
+}

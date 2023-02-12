@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Gruber scheme by Patel, Nimai &lt;nimai.m.patel@gmail.com&gt;, colors from www.github.com/rexim/gruber-darker-theme */
+
+window {
+	background-color: #181818;
+	color: #f4f4ff;
+}
+
+#entry:nth-child(odd) {
+	background-color: #181818;
+}
+
+#entry:nth-child(even) {
+	background-color: #453d41;
+}
+
+#entry:selected {
+	background-color: #484848;
+}
+
+#input {
+	background-color: #453d41;
+	color: #e4e4ef;
+	border-color: #484848; 
+}
+
+#input:focus {
+	border-color: #ffdd33; 
+}

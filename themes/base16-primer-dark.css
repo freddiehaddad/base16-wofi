@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Primer Dark scheme by Jimmy Lin */
+
+window {
+	background-color: #010409;
+	color: #b1bac4;
+}
+
+#entry:nth-child(odd) {
+	background-color: #010409;
+}
+
+#entry:nth-child(even) {
+	background-color: #21262d;
+}
+
+#entry:selected {
+	background-color: #30363d;
+}
+
+#input {
+	background-color: #21262d;
+	color: #8b949e;
+	border-color: #30363d; 
+}
+
+#input:focus {
+	border-color: #d29922; 
+}

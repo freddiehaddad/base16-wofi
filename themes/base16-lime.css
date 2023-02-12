@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * lime scheme by limelier */
+
+window {
+	background-color: #1a1a2f;
+	color: #818175;
+}
+
+#entry:nth-child(odd) {
+	background-color: #1a1a2f;
+}
+
+#entry:nth-child(even) {
+	background-color: #202030;
+}
+
+#entry:selected {
+	background-color: #2a2a3f;
+}
+
+#input {
+	background-color: #202030;
+	color: #515155;
+	border-color: #2a2a3f; 
+}
+
+#input:focus {
+	border-color: #ffd15e; 
+}

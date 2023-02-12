@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Da One Black scheme by NNB (https://github.com/NNBnh) */
+
+window {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+#entry:nth-child(odd) {
+	background-color: #000000;
+}
+
+#entry:nth-child(even) {
+	background-color: #282828;
+}
+
+#entry:selected {
+	background-color: #585858;
+}
+
+#input {
+	background-color: #282828;
+	color: #c8c8c8;
+	border-color: #585858; 
+}
+
+#input:focus {
+	border-color: #ff9470; 
+}

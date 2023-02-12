@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * ShadeSmear Light scheme by Kyle Giammarco (http://kyle.giammar.co) */
+
+window {
+	background-color: #dbdbdb;
+	color: #232323;
+}
+
+#entry:nth-child(odd) {
+	background-color: #dbdbdb;
+}
+
+#entry:nth-child(even) {
+	background-color: #e4e4e4;
+}
+
+#entry:selected {
+	background-color: #c0c0c0;
+}
+
+#input {
+	background-color: #e4e4e4;
+	color: #1c1c1c;
+	border-color: #c0c0c0; 
+}
+
+#input:focus {
+	border-color: #307878; 
+}

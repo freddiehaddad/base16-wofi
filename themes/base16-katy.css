@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Katy scheme by George Essig (https://github.com/gessig) */
+
+window {
+	background-color: #292d3e;
+	color: #959dcb;
+}
+
+#entry:nth-child(odd) {
+	background-color: #292d3e;
+}
+
+#entry:nth-child(even) {
+	background-color: #444267;
+}
+
+#entry:selected {
+	background-color: #5c598b;
+}
+
+#input {
+	background-color: #444267;
+	color: #8796b0;
+	border-color: #5c598b; 
+}
+
+#input:focus {
+	border-color: #e0a557; 
+}

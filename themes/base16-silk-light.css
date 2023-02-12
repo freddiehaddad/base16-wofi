@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Silk Light scheme by Gabriel Fontes (https://github.com/Misterio77) */
+
+window {
+	background-color: #e9f1ef;
+	color: #385156;
+}
+
+#entry:nth-child(odd) {
+	background-color: #e9f1ef;
+}
+
+#entry:nth-child(even) {
+	background-color: #ccd4d3;
+}
+
+#entry:selected {
+	background-color: #90b7b6;
+}
+
+#input {
+	background-color: #ccd4d3;
+	color: #4b5b5f;
+	border-color: #90b7b6; 
+}
+
+#input:focus {
+	border-color: #cfad25; 
+}

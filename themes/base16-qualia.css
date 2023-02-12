@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Qualia scheme by isaacwhanson */
+
+window {
+	background-color: #101010;
+	color: #c0c0c0;
+}
+
+#entry:nth-child(odd) {
+	background-color: #101010;
+}
+
+#entry:nth-child(even) {
+	background-color: #454545;
+}
+
+#entry:selected {
+	background-color: #454545;
+}
+
+#input {
+	background-color: #454545;
+	color: #808080;
+	border-color: #454545; 
+}
+
+#input:focus {
+	border-color: #e6a3dc; 
+}

@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Ashes scheme by Jannik Siebert (https://github.com/janniks) */
+
+window {
+	background-color: #1c2023;
+	color: #c7ccd1;
+}
+
+#entry:nth-child(odd) {
+	background-color: #1c2023;
+}
+
+#entry:nth-child(even) {
+	background-color: #393f45;
+}
+
+#entry:selected {
+	background-color: #565e65;
+}
+
+#input {
+	background-color: #393f45;
+	color: #adb3ba;
+	border-color: #565e65; 
+}
+
+#input:focus {
+	border-color: #aec795; 
+}

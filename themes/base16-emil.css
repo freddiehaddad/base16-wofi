@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * emil scheme by limelier */
+
+window {
+	background-color: #efefef;
+	color: #313145;
+}
+
+#entry:nth-child(odd) {
+	background-color: #efefef;
+}
+
+#entry:nth-child(even) {
+	background-color: #bebed2;
+}
+
+#entry:selected {
+	background-color: #9e9eaf;
+}
+
+#input {
+	background-color: #bebed2;
+	color: #505063;
+	border-color: #9e9eaf; 
+}
+
+#input:focus {
+	border-color: #ff669b; 
+}

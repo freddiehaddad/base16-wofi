@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Tokyodark scheme by Tiagovla (https://github.com/tiagovla/) */
+
+window {
+	background-color: #11121d;
+	color: #abb2bf;
+}
+
+#entry:nth-child(odd) {
+	background-color: #11121d;
+}
+
+#entry:nth-child(even) {
+	background-color: #151621;
+}
+
+#entry:selected {
+	background-color: #43444f;
+}
+
+#input {
+	background-color: #151621;
+	color: #1b1c27;
+	border-color: #43444f; 
+}
+
+#input:focus {
+	border-color: #7199ee; 
+}

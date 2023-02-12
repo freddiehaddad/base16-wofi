@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * pandora scheme by Cassandra Fox */
+
+window {
+	background-color: #131213;
+	color: #f15c99;
+}
+
+#entry:nth-child(odd) {
+	background-color: #131213;
+}
+
+#entry:nth-child(even) {
+	background-color: #2f1823;
+}
+
+#entry:selected {
+	background-color: #472234;
+}
+
+#input {
+	background-color: #2f1823;
+	color: #9b2a46;
+	border-color: #472234; 
+}
+
+#input:focus {
+	border-color: #ffcc00; 
+}

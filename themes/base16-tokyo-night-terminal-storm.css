@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Tokyo Night Terminal Storm scheme by Michaël Ball */
+
+window {
+	background-color: #24283b;
+	color: #787c99;
+}
+
+#entry:nth-child(odd) {
+	background-color: #24283b;
+}
+
+#entry:nth-child(even) {
+	background-color: #1a1b26;
+}
+
+#entry:selected {
+	background-color: #343a52;
+}
+
+#input {
+	background-color: #1a1b26;
+	color: #787c99;
+	border-color: #343a52; 
+}
+
+#input:focus {
+	border-color: #e0af68; 
+}

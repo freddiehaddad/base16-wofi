@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Ayu Light scheme by Khue Nguyen &lt;Z5483Y@gmail.com&gt; */
+
+window {
+	background-color: #fafafa;
+	color: #5c6773;
+}
+
+#entry:nth-child(odd) {
+	background-color: #fafafa;
+}
+
+#entry:nth-child(even) {
+	background-color: #f3f4f5;
+}
+
+#entry:selected {
+	background-color: #f8f9fa;
+}
+
+#input {
+	background-color: #f3f4f5;
+	color: #828c99;
+	border-color: #f8f9fa; 
+}
+
+#input:focus {
+	border-color: #f2ae49; 
+}

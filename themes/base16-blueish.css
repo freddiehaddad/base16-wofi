@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Blueish scheme by Ben Mayoras */
+
+window {
+	background-color: #182430;
+	color: #c8e1f8;
+}
+
+#entry:nth-child(odd) {
+	background-color: #182430;
+}
+
+#entry:nth-child(even) {
+	background-color: #243c54;
+}
+
+#entry:selected {
+	background-color: #46290a;
+}
+
+#input {
+	background-color: #243c54;
+	color: #74afe7;
+	border-color: #46290a; 
+}
+
+#input:focus {
+	border-color: #82aaff; 
+}

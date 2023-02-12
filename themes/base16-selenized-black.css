@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * selenized-black scheme by Jan Warchol (https://github.com/jan-warchol/selenized) / adapted to base16 by ali */
+
+window {
+	background-color: #181818;
+	color: #b9b9b9;
+}
+
+#entry:nth-child(odd) {
+	background-color: #181818;
+}
+
+#entry:nth-child(even) {
+	background-color: #252525;
+}
+
+#entry:selected {
+	background-color: #3b3b3b;
+}
+
+#input {
+	background-color: #252525;
+	color: #777777;
+	border-color: #3b3b3b; 
+}
+
+#input:focus {
+	border-color: #dbb32d; 
+}

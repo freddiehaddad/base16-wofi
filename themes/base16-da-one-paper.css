@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Da One Paper scheme by NNB (https://github.com/NNBnh) */
+
+window {
+	background-color: #faf0dc;
+	color: #181818;
+}
+
+#entry:nth-child(odd) {
+	background-color: #faf0dc;
+}
+
+#entry:nth-child(even) {
+	background-color: #c8c8c8;
+}
+
+#entry:selected {
+	background-color: #888888;
+}
+
+#input {
+	background-color: #c8c8c8;
+	color: #282828;
+	border-color: #888888; 
+}
+
+#input:focus {
+	border-color: #b3684f; 
+}

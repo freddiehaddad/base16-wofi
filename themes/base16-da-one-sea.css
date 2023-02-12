@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Da One Sea scheme by NNB (https://github.com/NNBnh) */
+
+window {
+	background-color: #22273d;
+	color: #ffffff;
+}
+
+#entry:nth-child(odd) {
+	background-color: #22273d;
+}
+
+#entry:nth-child(even) {
+	background-color: #374059;
+}
+
+#entry:selected {
+	background-color: #525866;
+}
+
+#input {
+	background-color: #374059;
+	color: #c8c8c8;
+	border-color: #525866; 
+}
+
+#input:focus {
+	border-color: #ff9470; 
+}

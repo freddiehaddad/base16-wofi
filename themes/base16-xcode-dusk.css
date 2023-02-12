@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * XCode Dusk scheme by Elsa Gonsiorowski (https://github.com/gonsie) */
+
+window {
+	background-color: #282b35;
+	color: #939599;
+}
+
+#entry:nth-child(odd) {
+	background-color: #282b35;
+}
+
+#entry:nth-child(even) {
+	background-color: #3d4048;
+}
+
+#entry:selected {
+	background-color: #53555d;
+}
+
+#input {
+	background-color: #3d4048;
+	color: #7e8086;
+	border-color: #53555d; 
+}
+
+#input:focus {
+	border-color: #438288; 
+}

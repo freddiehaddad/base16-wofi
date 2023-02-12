@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Sakura scheme by Misterio77 (http://github.com/Misterio77) */
+
+window {
+	background-color: #feedf3;
+	color: #564448;
+}
+
+#entry:nth-child(odd) {
+	background-color: #feedf3;
+}
+
+#entry:nth-child(even) {
+	background-color: #f8e2e7;
+}
+
+#entry:selected {
+	background-color: #e0ccd1;
+}
+
+#input {
+	background-color: #f8e2e7;
+	color: #665055;
+	border-color: #e0ccd1; 
+}
+
+#input:focus {
+	border-color: #c29461; 
+}

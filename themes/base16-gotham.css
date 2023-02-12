@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Gotham scheme by Andrea Leopardi (arranged by Brett Jones) */
+
+window {
+	background-color: #0c1014;
+	color: #599cab;
+}
+
+#entry:nth-child(odd) {
+	background-color: #0c1014;
+}
+
+#entry:nth-child(even) {
+	background-color: #11151c;
+}
+
+#entry:selected {
+	background-color: #091f2e;
+}
+
+#input {
+	background-color: #11151c;
+	color: #245361;
+	border-color: #091f2e; 
+}
+
+#input:focus {
+	border-color: #edb443; 
+}

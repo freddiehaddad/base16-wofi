@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * tender scheme by Jacobo Tabernero (https://github/com/jacoborus/tender.vim) */
+
+window {
+	background-color: #282828;
+	color: #eeeeee;
+}
+
+#entry:nth-child(odd) {
+	background-color: #282828;
+}
+
+#entry:nth-child(even) {
+	background-color: #383838;
+}
+
+#entry:selected {
+	background-color: #484848;
+}
+
+#input {
+	background-color: #383838;
+	color: #b8b8b8;
+	border-color: #484848; 
+}
+
+#input:focus {
+	border-color: #ffc24b; 
+}

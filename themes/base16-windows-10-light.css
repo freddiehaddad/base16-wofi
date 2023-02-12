@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Windows 10 Light scheme by Fergus Collins (https://github.com/C-Fergus) */
+
+window {
+	background-color: #f2f2f2;
+	color: #767676;
+}
+
+#entry:nth-child(odd) {
+	background-color: #f2f2f2;
+}
+
+#entry:nth-child(even) {
+	background-color: #e5e5e5;
+}
+
+#entry:selected {
+	background-color: #d9d9d9;
+}
+
+#input {
+	background-color: #e5e5e5;
+	color: #ababab;
+	border-color: #d9d9d9; 
+}
+
+#input:focus {
+	border-color: #c19c00; 
+}

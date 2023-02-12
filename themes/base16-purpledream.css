@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Purpledream scheme by malet */
+
+window {
+	background-color: #100510;
+	color: #ddd0dd;
+}
+
+#entry:nth-child(odd) {
+	background-color: #100510;
+}
+
+#entry:nth-child(even) {
+	background-color: #302030;
+}
+
+#entry:selected {
+	background-color: #403040;
+}
+
+#input {
+	background-color: #302030;
+	color: #bbb0bb;
+	border-color: #403040; 
+}
+
+#input:focus {
+	border-color: #f000a0; 
+}

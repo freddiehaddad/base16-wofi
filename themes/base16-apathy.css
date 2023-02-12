@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Apathy scheme by Jannik Siebert (https://github.com/janniks) */
+
+window {
+	background-color: #031a16;
+	color: #81b5ac;
+}
+
+#entry:nth-child(odd) {
+	background-color: #031a16;
+}
+
+#entry:nth-child(even) {
+	background-color: #0b342d;
+}
+
+#entry:selected {
+	background-color: #184e45;
+}
+
+#input {
+	background-color: #0b342d;
+	color: #5f9c92;
+	border-color: #184e45; 
+}
+
+#input:focus {
+	border-color: #3e4c96; 
+}

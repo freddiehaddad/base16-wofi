@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Windows 95 scheme by Fergus Collins (https://github.com/C-Fergus) */
+
+window {
+	background-color: #000000;
+	color: #a8a8a8;
+}
+
+#entry:nth-child(odd) {
+	background-color: #000000;
+}
+
+#entry:nth-child(even) {
+	background-color: #1c1c1c;
+}
+
+#entry:selected {
+	background-color: #383838;
+}
+
+#input {
+	background-color: #1c1c1c;
+	color: #7e7e7e;
+	border-color: #383838; 
+}
+
+#input:focus {
+	border-color: #fcfc54; 
+}
